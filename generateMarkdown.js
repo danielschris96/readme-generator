@@ -25,7 +25,7 @@ function generateMarkdown(data) {
   * [Questions](#questions)
 
   ## Installation
-  ${data.installation}
+  Run '${data.installation}' in the terminal.
   
   ## Usage
   ${data.usage}
@@ -37,10 +37,11 @@ function generateMarkdown(data) {
   ${data.contribute}
 
   ## Tests
-  ${data.tests}
+  Run '${data.tests}' in the terminal.
 
   ## Questions
-  Email: ${data.email}
+  Email: ${data.email}   
+  GitHub: https://github.com/${data.username}
 `;
 }
 

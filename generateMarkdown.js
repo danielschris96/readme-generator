@@ -81,8 +81,11 @@ function generateMarkdown(data) {
   To run tests, use the command \`${data.tests}\`.
 
   ## Questions
-  Email: ${data.email}   
-  GitHub: https://github.com/${data.username}
+  Further questions?
+
+  [Email](${data.email})
+
+  [GitHub](https://github.com/${data.username})
 `;
 }
 

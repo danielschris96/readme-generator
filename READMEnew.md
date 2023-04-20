@@ -1,8 +1,8 @@
-# asdf
+# 
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
-  asdf
+  
 
   ## Table of Contents
   * [Installation](#installation)
@@ -16,7 +16,7 @@
   To install dependencies, use the command `npm i`.
   
   ## Usage
-  asdf
+  
 
   
 ## License
@@ -25,11 +25,14 @@ This project is licensed under the [MIT](https://opensource.org/licenses/MIT) li
 
 
   ## Contributing
-  asdf
+  
 
   ## Tests
   To run tests, use the command `npm test`.
 
   ## Questions
-  Email: asd   
-  GitHub: https://github.com/asdf
+  Further questions?
+
+  [Email]()
+
+  [GitHub](https://github.com/)

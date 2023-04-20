@@ -5,6 +5,8 @@ const generateMarkdown = require('./generateMarkdown');
 
 // TODO: Create an array of questions for user input
 
+
+function init() {
 inquirer
     .prompt([
         {
@@ -49,7 +51,7 @@ inquirer
         {
             type: 'input',
             message: "What command should be run to run tests?",
-            name: 'test',
+            name: 'tests',
             default: 'npm test',
         },
         {
@@ -70,9 +72,6 @@ inquirer
         fs.writeFile("READMEnew.md", readme, (err) =>
         err ? console.log(err): console.log("Successfully generated READMEnew.md"));
     });
+};
 
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
 init();

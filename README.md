@@ -16,6 +16,8 @@ In order to use this application, the user will need NodeJS installed.<br>
 After cloning the repository, 
 run  `$ npm install` to install the inquirer dependency. Then run `$ node index.js` to start the application. Answer the given questions and a READMEnew.md file will be created. The file name is meant to not overwrite any existing README.md file present.
 
+![gif of application](./application-gif.gif)
+
 
 ## Credits
 

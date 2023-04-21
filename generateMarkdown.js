@@ -83,7 +83,7 @@ function generateMarkdown(data) {
   ## Questions
   Further questions?
 
-  [Email](${data.email})
+  Email: ${data.email}
 
   [GitHub](https://github.com/${data.username})
 `;

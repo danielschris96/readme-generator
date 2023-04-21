@@ -1,4 +1,4 @@
-# README generator
+# README Generator
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -17,6 +17,8 @@ After cloning the repository,
 run  `$ npm install` to install the inquirer dependency. Then run `$ node index.js` to start the application. Answer the given questions and a READMEnew.md file will be created. The file name is meant to not overwrite any existing README.md file present.
 
 ![gif of application](./application-gif.gif)
+
+Walkthrough Video: https://drive.google.com/file/d/1owerXMJHiuk34Mbj1V06yW1SwlyLMtSr/view
 
 
 ## Credits

@@ -1,11 +1,9 @@
-// TODO: Include packages needed for this application
+// define requirements
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./generateMarkdown');
 
-// TODO: Create an array of questions for user input
-
-
+// prompts for the user to fill out
 function init() {
 inquirer
     .prompt([
@@ -66,6 +64,7 @@ inquirer
         },
 
     ])
+    // writes new readme file, notifies user of success or errors
     .then((data) => {
         const readme = generateMarkdown(data);
 
